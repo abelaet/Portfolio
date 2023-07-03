@@ -1,0 +1,116 @@
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.navbar{
+    font-weight:bolder;
+    color: #ffffff;
+}
+    
+
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('images/portfolioImages/abel.png');
+    background-size:cover;
+    position:relative;
+   
+}
+/* text css above hero image*/
+.maintitle {
+    font-size: 4.5rem;
+    opacity: 1;
+}
+.maindiscription {
+    font-size: 2rem;
+    opacity: 1;
+    color: white;
+}
+.maintext {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+   
+}
+
+/* spacing on all sections */
+ #about, #services, #portfolio, #contact {
+    margin-top: 3rem;
+    padding-top: 3rem;
+} 
+#contact {
+    padding-bottom: 4rem;
+    
+}
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-telegram:hover,.fa-linkedin:hover, .fa-tiktok:hover {
+    color: #1961fd;
+}
+.fab {
+    color: #ffffff;
+}
+/* footer styling */
+#footer {
+    background-color: #000000;
+    text-align: center;
+}
+  .header__logo-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #333;
+    transition: color .3s; }
+    
+  .header__logo-img-cont {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50px;
+    overflow: hidden;
+    margin-right: 1.5rem;
+    background: #0062b9; }
+    
+  .header__logo-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block; }
+    .buttoncontact{
+        text-align: center;
+    }
+    
+    
+   

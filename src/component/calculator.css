@@ -1,0 +1,264 @@
+div.grid{
+  margin-top: 75px;
+  
+
+}
+
+
+body{
+  background-color: #1a3659;
+  color: #fff;
+}
+
+.grid {
+  
+  background-color: #353535;
+  max-width: fit-content;
+  border-radius: 20px;
+  margin: 0 auto;
+  display: grid;
+  border: 3px solid rgb(110, 110, 110);
+  padding: 5px;
+  box-sizing: border-box;
+  /* added */
+  grid-template-columns: repeat(4, 75px);
+  /* grid-template-rows: repeat(5, 75px); */
+
+}
+
+/* .calc-button {
+  font-size: 25px;
+  height: 70px;
+  background-color: #353539;
+  color: #fff;
+  border: 2px solid #838383;
+  border-radius: 10px;
+  margin: 3px;
+  min-height: 50px;
+  box-shadow: 0 8px 15px -7px black;
+  background: #3A4655;
+} */
+
+/* button:hover {
+  background-color: #4CAF50;
+  color: white;
+  transition-duration: 0.4s;
+}
+
+.large-button {
+  grid-column: span 2;
+} */
+
+.Display {
+  grid-column: span 4;
+}
+
+/* button:nth-of-type(1) {
+  background-color: rgb(24, 164, 59);
+  color: white;
+}
+
+button:nth-of-type(2) {
+  background-color: rgb(63, 54, 100);
+  color: white;
+}
+
+button:nth-of-type(3) {
+  background-color: rgb(63, 54, 100);
+  color: white;
+}
+
+button:nth-of-type(4) {
+  background-color: rgb(63, 54, 100);
+  color: white;
+}
+
+button:nth-of-type(8) {
+  background-color: rgb(63, 54, 100);
+  color: white;
+}
+
+button:nth-of-type(12) {
+  background-color: rgb(63, 54, 100);
+  color: white;
+}
+
+button:nth-of-type(16) {
+  background-color: rgb(63, 54, 100);
+  color: white;
+}
+
+button:nth-of-type(19) {
+  background-color: rgb(63, 54, 100);
+  color: white;
+}
+
+button:nth-of-type(20) {
+  background-color: rgb(63, 54, 100);
+  color: white;
+}
+
+button:nth-of-type(1):hover {
+  background-color: rgb(176, 60, 10);
+}
+
+button:nth-of-type(2):hover {
+  background-color: rgb(223, 134, 0);
+}
+
+button:nth-of-type(3):hover {
+  background-color: rgb(223, 134, 0);
+}
+
+button:nth-of-type(4):hover {
+  background-color: rgb(223, 134, 0);
+}
+
+button:nth-of-type(8):hover {
+  background-color: rgb(223, 134, 0);
+}
+
+button:nth-of-type(12):hover {
+  background-color: rgb(223, 134, 0);
+}
+
+button:nth-of-type(16):hover {
+  background-color: rgb(223, 134, 0);
+}
+
+button:nth-of-type(19):hover {
+  background-color: rgb(223, 134, 0);
+}
+
+
+
+
+button:nth-of-type(1):hover {
+  background-color: rgb(176, 60, 10);
+}
+
+button:nth-of-type(2):hover {
+  background-color: rgb(223, 134, 0);
+}
+
+button:nth-of-type(3):hover {
+  background-color: rgb(223, 134, 0);
+}
+
+button:nth-of-type(4):hover {
+  background-color: rgb(223, 134, 0);
+}
+
+button:nth-of-type(8):hover {
+  background-color: rgb(223, 134, 0);
+}
+
+button:nth-of-type(12):hover {
+  background-color: rgb(223, 134, 0);
+}
+
+button:nth-of-type(16):hover {
+  background-color: rgb(223, 134, 0);
+}
+
+button:nth-of-type(19):hover {
+  background-color: rgb(223, 134, 0);
+} */
+
+.grid {
+  background-color: #353535;
+  max-width: fit-content;
+  border-radius: 20px;
+  margin: 0 auto;
+  display: grid;
+  border: 3px solid rgb(110, 110, 110);
+  padding: 5px;
+  box-sizing: border-box;
+  /* added */
+  grid-template-columns: repeat(4, 75px);
+  /* grid-template-rows: repeat(5, 75px); */
+
+}
+
+/* .calc-button {
+  font-size: 25px;
+  height: 70px;
+  background-color: #353539;
+  color: #fff;
+  border: 2px solid #838383;
+  border-radius: 10px;
+  margin: 3px;
+  min-height: 50px;
+  box-shadow: 0 8px 15px -7px black;
+  background: #3A4655;
+} */
+
+/* Add any other desired styles */
+
+
+button {
+  font-size: 25px;
+  height: 70px;
+  background-color: #353539;
+  color: #fff;
+  border: 2px solid #838383;
+  border-radius: 10px;
+  margin: 12.5px;
+  min-height: 50px;
+  box-shadow: 0 8px 15px -7px black;
+  background: #3A4655;
+}
+
+
+
+/* .large-button {
+  grid-column: span 2;
+} */
+
+
+
+
+/* button:nth-of-type(1) {
+  background-color: rgb(24, 164, 59);
+  color: white;
+}
+
+button:nth-of-type(2) {
+  background-color: rgb(63, 54, 100);
+  color: white;
+}
+
+button:nth-of-type(3) {
+  background-color: rgb(63, 54, 100);
+  color: white;
+}
+
+button:nth-of-type(4) {
+  background-color: rgb(63, 54, 100);
+  color: white;
+}
+
+button:nth-of-type(8) {
+  background-color: rgb(63, 54, 100);
+  color: white;
+}
+
+button:nth-of-type(12) {
+  background-color: rgb(63, 54, 100);
+  color: white;
+}
+
+button:nth-of-type(16) {
+  background-color: rgb(63, 54, 100);
+  color: white;
+}
+
+button:nth-of-type(19) {
+  background-color: rgb(63, 54, 100);
+  color: white;
+}
+
+button:nth-of-type(20) {
+  background-color: rgb(63, 54, 100);
+  color: white;
+} */
